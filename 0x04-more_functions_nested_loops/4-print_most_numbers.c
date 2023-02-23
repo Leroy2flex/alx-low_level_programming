@@ -11,16 +11,16 @@ void print_most_numbers(void)
 {
 	int x = 0;
 
-	for (; x <= 9; x++)
-	{
-		if (x == 2 || x == 4)
+		for (; x <= 9; x++)
 		{
-			continue;
+			if (x == 2 || x == 4)
+			{
+				continue;
+			}
+			else
+			{
+				_putchar(x + '0');
+			}
 		}
-		else
-		{
-			_putchar(x + 'a');
-		}
-	}
 	_putchar('\n');
 }
