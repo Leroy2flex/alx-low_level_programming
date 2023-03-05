@@ -1,1 +1,1 @@
-Rubber duck debbuging
+0x05_pointers_arrays_strings
